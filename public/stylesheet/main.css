@@ -1,0 +1,27 @@
+.fc-view-container {
+	
+}
+.navbar-default {
+	padding-right: 20px !important;
+}
+
+.small-cal-row {
+	height: 42px !important;
+	min-height: 2em !important;
+}
+
+.event-day {
+	background-color: black;
+}
+
+.first-day {
+	background-color: rgb(228, 198, 198);
+}
+
+.last-day {
+	background-color: rgb(205, 201, 201);	
+}
+
+.booked-day {
+	background-color: red !important;
+}

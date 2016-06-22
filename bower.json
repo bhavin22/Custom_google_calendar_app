@@ -1,0 +1,30 @@
+{
+  "name": "Calendar-testing",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Bhavin"
+  ],
+  "license": "BSD-2-Clause",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-calendar": "~1.0.1",
+    "angular": "~1.5.0",
+    "moment": "~2.12.0",
+    "angular-route": "~1.5.0",
+    "bootstrap": "~3.3.6"
+  },
+  "resolutions": {
+    "angular": "~1.5.0"
+  }
+}

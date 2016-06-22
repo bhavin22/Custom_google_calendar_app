@@ -1,0 +1,60 @@
+<div class="jumbotron">
+	<form ng-submit="save()">
+		<div class="row">
+			<div class="col-xs-6">
+				<label class="form-controll">Enter Api Token</label>
+				<input class="form-control" type="text" name="api_token" ng-model="api_token" value="" placeholder="Api Token"></inpuut>		
+			</div>
+			<div class="col-xs-6">
+				<label class="form-controll">Enter Calendar Id</label>
+				<input class="form-control" type="text" name="cal_id" ng-model="cal_id" value="" placeholder="Calendar Id"></inpuut>		
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-xs-6">
+				<label class="form-controll">Select Start Day of Week</label>
+				<select class="form-control" ng-model="start_day">
+					<option value="0">Sunday</option>
+				    <option value="1">Monday</option>
+				    <option value="2">Tuesday</option>
+				    <option value="3">Wendesday</option>
+				    <option value="4">Thursday</option>
+				    <option value="5">Friday</option>
+				    <option value="6">Saturday</option>
+				</select>	
+			</div>
+			<div class="col-xs-6">
+				<label class="form-controll">Select Calendar Language</label>
+				<select class="form-control" ng-model="lang">
+					<option value="en">English</option>
+				    <option value="de">German</option>
+				</select>		
+			</div>
+		</div>	
+		<br>
+		<div class="row">
+			<div class="col-xs-6">
+				<label class="form-controll">Select Day Length</label>
+				<select class="form-control" ng-model="day_length">
+					<option value="dd">Very Short</option>
+				    <option value="ddd">Short</option>
+				    <option value="dddd">Full</option>
+				</select>	
+			</div>
+			<div class="col-xs-6">
+				<label class="form-controll">Select Calendar View</label>
+				<select class="form-control" ng-model="cal_view">
+					<option value="0">Current Month</option>
+				    <option value="1">9 Months</option>
+				</select>	
+			</div>
+		</div>	
+		<br>
+		<div class="row">
+			<div class="col-xs-6 pull-left">
+				<input class="form-control btn btn-success" type="submit" id="save" name="save" value="save"></input>
+			</div>
+		</div>
+	</form>
+</div>
